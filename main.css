@@ -1,17 +1,19 @@
 * {
     box-sizing: border-box;
     margin: 10px;
+    font-family: sans-serif;
 }
 
 #profile-container {
     /* border: 2px solid red; */
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
 
 
 }
 
 .customerCard {
+    font-size: 12px;
     /* border: 2px solid blue; */
     padding: 10px;
     width: min-content;
