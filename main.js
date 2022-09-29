@@ -45,8 +45,21 @@ for (let customer of customers) {
     customerDiv.appendChild(customerSince);
 //move customerDiv into personContainer ??????????????????
     personContainer.appendChild(customerDiv);
-//add the class of customer to customerDiv for CSS stuff
-    customerDiv.classList.add("customer");
+//add the class of customerCard to customerDiv for CSS stuff
+    customerDiv.classList.add("customerCard");
+    customerPic.classList.add("customerPicture");
+    customerEmail.classList.add("email");
+    customerAddressLineOne.classList.add("address");
+    customerAddressLineTwo.classList.add("address");
+    customerDOB.classList.add("DOB", "dates");
+    customerSince.classList.add("since", "dates");
+
+
+    
+    
+  
+
+
 
 
 }

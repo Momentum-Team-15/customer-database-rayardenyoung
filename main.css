@@ -1,15 +1,51 @@
 * {
     box-sizing: border-box;
     margin: 10px;
-    }
-
-#profile-container {
-    border: 2px solid red;
-    display: flex;
-    flex-wrap: wrap;
 }
 
-.customer {
-    border: 2px solid blue;
+#profile-container {
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 
-    }
+
+}
+
+.customerCard {
+    /* border: 2px solid blue; */
+    padding: 10px;
+    width: min-content;
+    text-align: center;
+    
+
+
+
+}
+
+.customerPicture {
+    border-radius: 45% 65% 45% 65%;
+}
+
+.email {
+    color: gray
+}
+
+.address {
+    margin: 0;
+}
+
+
+.DOB {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.since {
+    margin-top: 0px;
+    margin-bottom: 10;
+    white-space: nowrap;
+}
+
+.dates {
+    
+}
